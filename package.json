@@ -1,0 +1,14 @@
+{
+  "name": "big-pack-do-designer",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://calusx-pixel.github.io/BIG-PACK-DO-DESIGNER",
+  "scripts": {
+    "start": "npx live-server --port=8000 --open=index.html",
+    "serve:python": "python3 -m http.server 8000",
+    "deploy:gh-pages": "npx gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
